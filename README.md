@@ -18,17 +18,17 @@ This is the grid based theme for Hugo.
 
 # Features
 
-* [Accelerated Mobile Pages Project](https://www.ampproject.org/) a.k.a AMP supported
-* Responsive design
-* Google Analytics
-* Thumbnail
-* Share button
-* Structured data(Article and Breadcrumb)
-* Twitter cards
-* OGP
-* Disqus
-* Syntax Highlight
-* Show `IsDraft`.
+- [Accelerated Mobile Pages Project](https://www.ampproject.org/) a.k.a AMP supported
+- Responsive design
+- Google Analytics
+- Thumbnail
+- Share button
+- Structured data(Article and Breadcrumb)
+- Twitter cards
+- OGP
+- Disqus
+- Syntax Highlight
+- Show `IsDraft`.
 
 ## Installation
 
@@ -103,8 +103,7 @@ env HUGO_ENV="DEV" hugo server --watch --buildDrafts=true --buildFuture=true -t 
 
 This mode is
 
-* Not show Google Analytics tags.
-* Show `WordCount`.
+- Not show Google Analytics tags.
+- Show `WordCount`.
 
 And set `{{ if ne (getenv "HUGO_ENV") "DEV" }} Set elements here. {{ end }}` if you want to place only in a production environment.
-
