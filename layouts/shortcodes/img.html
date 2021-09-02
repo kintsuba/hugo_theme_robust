@@ -5,7 +5,7 @@
     {{ if .Get "href" }}
     <a href="{{ .Get "href" }}" rel="noopener" target="_blank">{{ .Get "caption" }}</a>
     {{ else }}
-    {{ .Get "caption" }}
+{{ .Get "caption" }}
     {{ end }}
   </figcaption>
   {{ end }}
